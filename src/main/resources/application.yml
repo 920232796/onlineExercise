@@ -1,0 +1,18 @@
+spring:
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  datasource:
+    url: jdbc:mysql://115.28.79.206/ischool?useUnicode=true&characterEncoding=UTF8&useSSL=false
+    username: root
+    password: f408909685
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8091
+  servlet:
+      session:
+        timeout: 900s
+
+
